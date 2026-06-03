@@ -394,7 +394,7 @@
             document.getElementById('welkom').style.display = 'none';
             document.getElementById('video-container').style.display = 'block';
 
-            const src = `https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&iv_load_policy=3&loop=1&modestbranding=1&rel=0&playlist=${video.id}`;
+            const src = `https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&iv_load_policy=3&loop=0&modestbranding=1&rel=0&playlist=${video.id}`;
             document.getElementById('youtube-iframe').src = src;
             document.getElementById('video-title').textContent = video.naam.replace(/\*+/, '').trim();
 
